@@ -18,5 +18,5 @@ gcloud functions deploy scc-parser-publisher \
 
 # Application Integration
 
-The json file can be imported as a workflow in your gcp application integration module.
-It will add a workflow that trigers every time a new message (scc event parsed and sent by the funtion) gets into a pub/sub topic and sent to the recipient configure in the "Send Email" task.
+The json file can be imported as a workflow in the gcp application integration module.
+The workflow trigers every time a new message when a new scc event (parsed and sent by the funtion) gets into a pub/sub topic and it will send it as alert email to the recipient configure in the "Send Email" task.
