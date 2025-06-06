@@ -1,6 +1,6 @@
 # Deploy the function using the following gcloud commands 
 
-- Ensure project id is properly set correctly
+- Ensure project id is set correctly
 gcloud config set project my-project-76851-371010
 
 - Deploy the function
