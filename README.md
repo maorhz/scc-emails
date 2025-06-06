@@ -1,4 +1,4 @@
-# Deploy the function using the following gcloud commands 
+# Deploy the function using gcloud commands 
 
 - Ensure project id is set correctly
 
