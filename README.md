@@ -4,7 +4,7 @@
 
 gcloud config set project my-project-76851-371010
 
-- Deploy the function
+- Deploy the function using gcloud
 
 gcloud functions deploy scc-parser-publisher \
   --gen2 \
