@@ -40,6 +40,7 @@ def process_pubsub_message(event, context):
         'resource': resource.get('displayName', 'N/A'),
         'full_resource_name': finding.get('resourceName', 'N/A'),
         'description': finding.get('description', 'N/A'),
+        'next_steps': finding.get('nextSteps', 'N/A'),
         'project_name': resource.get('gcpMetadata', {}).get('projectDisplayName', 'N/A'),
         'explanation': finding.get('sourceProperties', {}).get('Explanation', 'N/A'),
         'external_uri': finding.get('externalUri', 'N/A')
