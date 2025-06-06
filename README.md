@@ -12,5 +12,5 @@ gcloud functions deploy scc-parser-publisher \
   --region=us-central1 \
   --source=. \
   --entry-point=process_pubsub_message \
+  --set-env-vars GCP_PROJECT=$(gcloud config get-value project) \
   --trigger-topic=scc-findings
-  --set-env-vars GCP_PROJECT=$(gcloud config get-value project)
